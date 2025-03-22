@@ -15,6 +15,11 @@
     margin: 0;
 }
 
+html, body{
+    height: 100%;
+    display: grid;
+}
+
 body{
     background-color: var(--color-primario);
     color: var(--color-secundario);
@@ -112,4 +117,12 @@ body{
 .logo{
     width: 36px;
     padding: 0 2px;
+}
+
+.presentacion__enlaces__link:hover{
+    border-color: var(--color-secundario);
+}
+
+.header__menu__link:hover{
+    color: var(--color-secundario);
 }
