@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="">Sobre Mi</a>
-            <a href="">Experiencias</a>
-            <a href="">Educacion</a>
-            <a href="">Proyectos</a>
+    <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link" href="">Sobre Mi</a>
+            <a class="header__menu__link" href="">Experiencias</a>
+            <a class="header__menu__link" href="">Educacion</a>
+            <a class="header__menu__link" href="">Proyectos</a>
         </nav>
     </header>
-    <main>
-        <section>
-            <h1>¡Bienvenido a mi portafolio!</h1>
-            <p><strong>Hola, mi nombre es Daniel Con, aprendiz de desarrollo web.</strong> Este es uno de mis proyectos, donde pongo en practica los conocimientos adquiridos en HTML y CSS de parte de la certificacion del programa ONE de Alura Latam. Aquí podrás encontrar mi portafolio, que refleja mi evolución como profesional, y por que no, tambien como desarrollador</p>
-            <div>
-                <h2>Accede a mis redes sociales:</h2>
-                <a href=""><img src="./assets/instagram.png">Instagram</a>
-                <a href=""><img src="./assets/linkedin.png">Linkedin</a>
-                <a href=""><img src="./assets/github.png">Github</a>
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <h1 class="presentacion__contenido__titulo">¡Bienvenido a mi portafolio!</h1>
+            <p class="presentacion__contenido__texto"><strong class="presentacion__contenido__texto__detasque">Hola, mi nombre es Daniel Con, aprendiz de desarrollo web.</strong> Este es uno de mis proyectos, donde pongo en practica los conocimientos adquiridos en HTML y CSS de parte de la certificacion del programa ONE de Alura Latam. Aquí podrás encontrar mi portafolio, que refleja mi evolución como profesional, y por que no, tambien como desarrollador</p>
+            <div class="presentacion__enlaces">
+                <h2 class="presentacion__enlaces__subtitulo">Accede a mis redes sociales:</h2>
+                <div class="presentacion__enlaces__contenido">
+                    <a class="presentacion__enlaces__link" href=""><img class="logo" src="./assets/instagram.png">Instagram</a>
+                    <a class="presentacion__enlaces__link" href=""><img class="logo" src="./assets/linkedin.png">Linkedin</a>
+                    <a class="presentacion__enlaces__link" href=""><img class="logo" src="./assets/github.png">Github</a>
+                </div>
             </div>        
         </section>
-        <img src="./assets/imagen.png" alt="Foto de Daniel">
+        <img class="presentacion__imagen" src="./assets/imagen.png" alt="Foto de Daniel">
     </main>
-    <footer>
-        <p>Desarrollado por Daniel Con - 2025</p>
+    <footer class="footer">
+        <p class="footer__texto">Desarrollado por Daniel Con - 2025</p>
     </footer>
 </body>
 </html>
